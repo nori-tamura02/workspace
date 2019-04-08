@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Firebase Test</title>
+  <style>
+    .visible-block {
+      display: block;
+    }
+    .hidden-block {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Firebase test</h1>
+  <form>
+    <div class="visible-on-logout">
+      MAIL:<input type="email" id="user-mail" /><br>
+      PASS:<input type="password" id="user-pass" /><br>
+      <button type="button" id="login-button">ログイン</button>
+    </div>
+    <div class="visible-on-login">
+      <button type="button" id="logout-button">ログアウト</button>
+    </div>
+  </form>
+  <div class="visible-on-login">
+    <button type="button" id="my-button">setNewValue</button>
+  </div>
+  
+<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBeYd11lPc6lSPOlT8yJ3cOB6xWOTC4LmE",
+    authDomain: "realtime-chat-25496.firebaseapp.com",
+    databaseURL: "https://realtime-chat-25496.firebaseio.com",
+    projectId: "realtime-chat-25496",
+    storageBucket: "realtime-chat-25496.appspot.com",
+    messagingSenderId: "657740369727"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
