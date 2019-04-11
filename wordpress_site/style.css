@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+/*
+Theme Name: cafe
+Theme URI: http://tech-cafe.com/
+Author: nori tamura
+Author URI: http://tech-cafe.com/
+Description: tech cafe
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/*初期設定*/
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+ul  {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*header*/
+header {
+    height: 500px;
+    width: 100%;
+}
+
+.top-wrapper {
+    background-color: #333; 
+    width: 100%;
+    height: 60px;
+}
+
+.header-wrapper {
+    width: 1100px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    float: left;
+    color: #fffff0;
+    margin: 10px 20px;
+    font-family: 'Allerta', sans-serif;
+}
+
+.navbar {
+    float: right;
+    margin-top: 3px;
+    margin-right: 15px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.left-border {
+    border-left: 1px solid #fffff0;
+    padding: 0 50px;
+}
+
+.navbar ul li {
+    border-right: 1px solid #fffff0;
+    padding: 0 50px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fffff0;
+    opacity: 0.8;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.navbar a:hover {
+    color: #fffff0;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.header-img {
+    height: 440px;
+    width: 100%;
+    background-image: url("img/tech-cafe-main-img.jpg");
+    background-size: 100%;
+}
+
+/*wrapper*/
+#wrapper {
+    background-color: #ffffff;
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/*main*/
+#main {
+    background-color: ;
+    height: 500px;
+    width: 750px;
+}
+
+.main-content {
+    width: 630px;
+    height: 150px;
+    margin-left: 35px;
+    margin: 30px 0;
+}
+
+.main-content h2 {
+    font-family: 'Marvel', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid #666;
+    padding: 16px 0;
+}
+
+.main-content p {
+    font-size: 12px;
+     line-height: 1.8;
+}
+
+
+
+/*posts*/
+#posts {
+    float: left;
+    width: 435px;
+    margin-left: 35px;
+}
+
+.post {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+    }
+
+.post-header {
+     margin-bottom: 15px;
+}
+
+.post-header h2 {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.post-meta {
+      font-size: 12px;
+      padding: 7px 0;
+      color: #555;
+}
+
+.post-content {
+      overflow: hidden;
+}
+
+.post-image {
+      float: left;
+      width: 115px;
+}
+
+.post-body {
+      margin-left: 115px;
+}
+
+
+/*sidebar*/
+aside {
+    height: 500px;
+    width: 350px;
+    padding: 20px 20px;
+}
+
+.widget {
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.widget h3 {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+
+.widget li {
+    line-height: 1.8;
+}
+
+
+/*footer*/
+footer {
+    background-color: #333;
+    width: 100%;
+    height: 80px;
+    color: #ff8c00;
+}
+
+footer p {
+    text-align: center;
+    padding: 30px 0 ;
+    margin: 0;
+}
